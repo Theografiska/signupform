@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    font-size: 16px;
+}
+
+/* left-side */ 
+#header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    opacity: 0.6;
+    margin-top: 40%;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+#picture-credit {
+    margin: 1rem;
+}
+
+#picture-credit {
+    color: rgb(206, 206, 206);
+}
+
+#header-box img {
+    max-height: 6rem;
+}
+
+#left-side, #right-side {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#left-side {
+    color: white;
+    text-align: center;
+    width: 50%;
+    min-width: 350px;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+}
+
+/* right-side */
+#right-side {
+    background-color: rgb(242, 240, 240);
+    justify-content: space-evenly;
+}
+
+.right {
+    padding: 2rem;
+}
+
+#intro-text p {
+    font-size: 1.5rem;
+    max-width: 80%;
+    margin-bottom: 1.5rem;
+    font-weight: 550;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#form-main-section {
+    background-color: white;
+    box-shadow: 0 2px 5px lightgray;
+}
+
+.form-row {
+    display: block;
+}
+
+.form-item{
+    display: inline-block;
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+
+input {
+    display: block;
+}
+
+label {
+    color: rgb(113, 113, 113);
+    font-size: .7rem;
+    font-weight: bold;
+    letter-spacing: .05rem;
+}
+
+input[type="text"], input[type="email"],
+input[type="password"], input[type="number"] {
+    width: 16rem;
+    border: 1px solid lightgray;
+    border-radius: .25rem;
+    font-size: 1rem;
+    padding: .4rem;
+}
+
+
+/* create account section */ 
+#form-button-section {
+    display: flexX;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type="submit"] {
+    margin-bottom: 2rem;
+    padding: .75rem 3rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(78, 103, 80);
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 2px 4px 5px lightgray;
+}
+
+a {
+    color:rgb(78, 103, 80);
+    text-decoration: none;
+    font-weight: bold;
+}
